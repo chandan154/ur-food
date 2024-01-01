@@ -24,4 +24,5 @@ const UserSchema = new Schema({
     }
 });
 // u can use model to create, read, update, delete data from the database
+//model is a warpper for ur schema
 module.exports= mongoose.model('user', UserSchema);
